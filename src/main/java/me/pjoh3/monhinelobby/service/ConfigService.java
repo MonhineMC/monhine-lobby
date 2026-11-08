@@ -16,6 +16,9 @@ public class ConfigService implements LifecycleService {
     @Inject
     public ConfigService(Plugin plugin) {
         this.plugin = plugin;
+        plugin.getLogger().warning("TEST");
+        plugin.getLogger().warning("TEST");
+        plugin.getLogger().warning("TEST");
     }
 
     @Override

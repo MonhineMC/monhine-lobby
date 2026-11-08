@@ -1,0 +1,12 @@
+name: monhine-mc-lobby
+version: '1.0.0'
+main: me.pjoh3.monhinelobby.MonhineLobby
+api-version: '1.20'
+authors: [pjoh3]
+
+dependencies:
+  server:
+    monhine-mc-api:
+      load: BEFORE
+      required: true
+      join-classpath: true

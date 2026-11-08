@@ -11,7 +11,7 @@ public class MonhineLobby extends JavaPlugin {
 
         BukkitDependencyInjector injector = new BukkitDependencyInjector(this);
         injector.setProvider(new BukkitDependencyProvider(this));
-        injector.enable("me.pjoh3");
+        injector.enable("me.pjoh3", this.getClass().getClassLoader());
     }
 
     @Override
